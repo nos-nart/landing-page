@@ -1,0 +1,10 @@
+.navigation::before {
+    background-image: linear-gradient(-90deg,rgba(255,255,255,0) 0,#fff 5%,#fff 90%,rgba(255,255,255,0) 100%);
+    content: "";
+    display: block;
+    height: 2px;
+    opacity: .08;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
