@@ -9,9 +9,9 @@
 </head>
 
 <body class="leading-tight">
-  <header class="bg-gray-darker antialiased">
+  <header class="bg-gray-darker antialiased px-12 py-8 ">
     <div class="container m-auto">
-      <div class="flex justify-between items-center pt-6 pb-2">
+      <div class="flex justify-between items-center pb-2">
         <div class="flex flex-wrap items-center font-semibold text-xl text-gray-lighter">
           <svg class="block h-10 w-10 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
             <defs>
@@ -32,28 +32,73 @@
           <a class="rounded px-2 py-2 hover:bg-dark-lighter hover:text-white" href="#">kapi</a>
         </div>
         <div class="flex items-center">
-          <svg class="h-5 w-5 mr-8" fill="#717e82" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M6 8v7h8V8a4 4 0 1 0-8 0zm2.03-5.67a2 2 0 1 1 3.95 0A6 6 0 0 1 16 8v6l3 2v1H1v-1l3-2V8a6 6 0 0 1 4.03-5.67zM12 18a2 2 0 1 1-4 0h4z"/></svg>
+          <svg class="h-5 w-5 mr-8" fill="#717e82" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+            <path
+              d="M6 8v7h8V8a4 4 0 1 0-8 0zm2.03-5.67a2 2 0 1 1 3.95 0A6 6 0 0 1 16 8v6l3 2v1H1v-1l3-2V8a6 6 0 0 1 4.03-5.67zM12 18a2 2 0 1 1-4 0h4z" />
+          </svg>
           <span class="relative">
-            <svg width="42" height="46" fill="#717e82" viewBox="0 0 41 41" class="shadow"><path d="M16.171 39.634C6.957 37.848 0 29.736 0 20 0 8.954 8.954 0 20 0s20 8.954 20 20c0 9.736-6.957 17.848-16.171 19.634l-3.262 2.26c-.313.141-.82.141-1.134 0l-3.262-2.26z"></path></svg>
+            <svg width="42" height="46" fill="#717e82" viewBox="0 0 41 41" class="shadow">
+              <path
+                d="M16.171 39.634C6.957 37.848 0 29.736 0 20 0 8.954 8.954 0 20 0s20 8.954 20 20c0 9.736-6.957 17.848-16.171 19.634l-3.262 2.26c-.313.141-.82.141-1.134 0l-3.262-2.26z">
+              </path>
+            </svg>
             <img class="absolute top-0 left-0 rounded-full" src="assets/images/kapi_profile.jpeg" alt="profile_pic">
           </span>
         </div>
       </div>
       <nav class="navigation relative py-2 border-solid">
         <div class="flex flex-wrap my-2">
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Overview</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Deploys</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Functions</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Identity</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Forms</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Large Media</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Split Testing</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Analytics</a>
-          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded" href="#">Setting</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Overview</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Deploys</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Functions</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Identity</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Forms</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Large Media</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Split Testing</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Analytics</a>
+          <a class="font-semibold text-gray-lighter px-2 py-2 hover:bg-gray-lighter hover:text-white rounded"
+            href="#">Setting</a>
         </div>
       </nav>
     </div>
   </header>
+  <div>
+    <div class="container m-auto">
+      <div class="flex rounded-lg shadow-lg p-6 w-7/12">
+        <div class="flex-1">
+          <p class="font-bold mb-3 text-gray-darker">kapi</p>
+          <a class="text-teal ml-3" target="_blank" href="https://kapi.netlify.com">• https://kapi.netlify.com</a>
+          <p class="text-gray-lighter mb-6 mt-3">Deploys from <a class="underline" href="https://github.com">GitHub</a>.
+            Last published on Aug 5.</p>
+          <div class="flex">
+            <button class="flex rounded-lg shadow-md text-gray-darker p-3">
+              <svg class="w-4 h-4" fill="rgb(46, 59, 65)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M20 14v4a2 2 0 0 1-2 2h-4v-2a2 2 0 0 0-2-2 2 2 0 0 0-2 2v2H6a2 2 0 0 1-2-2v-4H2a2 2 0 0 1-2-2 2 2 0 0 1 2-2h2V6c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2 2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v4h-2a2 2 0 0 0-2 2 2 2 0 0 0 2 2h2z"/></svg>
+              <span class="ml-3">
+                Site settings
+              </span>
+            </button>
+            <button class="flex rounded-lg shadow-md text-gray-darker p-3 ml-4">
+              <svg class="w-4 h-4" fill="rgb(46, 59, 65)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.94 6.5L2.22 3.64l1.42-1.42L6.5 3.94c.52-.3 1.1-.54 1.7-.7L9 0h2l.8 3.24c.6.16 1.18.4 1.7.7l2.86-1.72 1.42 1.42-1.72 2.86c.3.52.54 1.1.7 1.7L20 9v2l-3.24.8c-.16.6-.4 1.18-.7 1.7l1.72 2.86-1.42 1.42-2.86-1.72c-.52.3-1.1.54-1.7.7L11 20H9l-.8-3.24c-.6-.16-1.18-.4-1.7-.7l-2.86 1.72-1.42-1.42 1.72-2.86c-.3-.52-.54-1.1-.7-1.7L0 11V9l3.24-.8c.16-.6.4-1.18.7-1.7zM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+              <span class="ml-3">
+                Domain settings
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="rounded-lg overflow-hidden "><img class="w-48"
+            src="https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5d47cf20d453b0000828e641/screenshot.png"
+            alt="project_img"></div>
+      </div>
+    </div>
+  </div>
   <script type="text/javascript" src="main.js"></script>
 </body>
 

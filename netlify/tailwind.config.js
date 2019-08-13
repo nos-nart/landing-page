@@ -7,11 +7,12 @@ module.exports = {
             'xl': '1280px',
         },
         colors: {
+            'teal': '#00ad9e',
             'dark-lighter': '#0e1e24',
             'gray-lighter': '#717e82',
             'gray-darkest': '#3d4852',
             'gray-darker': '#0e1e24',
-            'white': '#fff'
+            'white': '#fff',
         }
     },
     variants: {
