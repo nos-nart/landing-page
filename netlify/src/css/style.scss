@@ -8,3 +8,15 @@
     top: 0;
     width: 100%;
 }
+
+.app-main::before {
+    background: #0e1e24;
+    content: " ";
+    display: block;
+    height: 264px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
