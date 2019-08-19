@@ -11,3 +11,16 @@
 #sidebar::-webkit-scrollbar-thumb {
   background-color: #272727;
 }
+
+.video__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2rem;
+}
