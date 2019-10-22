@@ -1,0 +1,24 @@
+{
+  "name": "vanillajs-mvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx parcel src/index.html --no-cache",
+    "prod": "npx parcel build src/index.html --public-url ./ --no-cache"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.6.5",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.18",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.23.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.1.2"
+  }
+}
