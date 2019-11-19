@@ -8,6 +8,8 @@ module.exports = {
                 '104': '27rem',
                 '112': '30rem',
                 '120': '33rem',
+                '128': '36rem',
+                '136': '39rem',
             }
         },
         screens: {
@@ -17,6 +19,7 @@ module.exports = {
             'xl': '1280px',
         },
         colors: {
+            'light': 'rgb(233, 246, 255)',
             'primary': 'rgb(22, 82, 240)',
             'secondary': 'rgb(0, 165, 93)',
             'transparent' : 'transparent',
