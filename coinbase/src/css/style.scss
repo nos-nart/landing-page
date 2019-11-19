@@ -1,0 +1,10 @@
+.main::before {
+    content: '';
+    position: absolute;
+    height: 160px;
+    background: rgb(22, 82, 240);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
